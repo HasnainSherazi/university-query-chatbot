@@ -1,0 +1,642 @@
+
+{
+"intents": [
+{
+"intent": "greeting",
+"text": ["Hi", "Hello", "Hey", "Assalamualaikum", "Hi there"],
+"responses": [
+"Hi! Ask me anything related to fee structure, departments, their HOD names, Scholarships of undergraduate programs, admission-dates, hostel-fee of CUST, programs, faculties, and more."
+]
+},
+{
+"intent": "about_cust",
+"text": ["What is CUST?", "cust", "what cust", "What is the full name of CUST University?", "full name cust", "Tell me about CUST University.", "about cust", "cust university"],
+"responses": [
+"Capital University of Science and Technology (CUST) is a leading private university in Islamabad, Pakistan, established in 1998 initially as the Islamabad Campus of Mohammad Ali Jinnah University (MAJU). In 2015, it was granted independent status via the 'Capital University of Science and Technology Act'. CUST offers a wide array of programs across six faculties: Computing, Engineering, Health & Life Sciences, Management & Social Sciences, Pharmacy, and Law. With 250 faculty members, including foreign-qualified experts, and over 14,354 alumni, the university prides itself on its energy-efficient campus and world-class facilities. It hosts vibrant events like music festivals, cultural fests, and RoboCUST competitions, fostering a dynamic student community. CUST's commitment to excellence is evident in its pursuit of innovation in learning, scholarship, and creative endeavors. Visit https://cust.edu.pk/ for more."
+]
+},
+{
+"intent": "cust_location",
+"text": ["Where is CUST located?", "cust location", "What is the address of CUST?", "cust address", "university_location", "CUST university address?", "CUST location?", "University location in Islamabad?"],
+"responses": [
+"Capital University of Science and Technology (CUST) is located at Kahuta Road, Zone-V, Islamabad, Pakistan. It's easily accessible from the main expressway."
+]
+},
+{
+"intent": "cust_contact",
+"text": ["Contact number for CUST?", "cust contact", "What is the phone number of CUST University?", "cust phone", "Email address of CUST?", "cust email", "How can I email CUST?", "email cust"],
+"responses": [
+"You can reach CUST via UAN: +92-51-111-555-666 or Phone: +92-51-4486700-4. The official email is info@cust.edu.pk for inquiries."
+]
+},
+{
+"intent": "cust_history",
+"text": ["When was CUST established?", "cust established", "History of CUST University?", "cust history"],
+"responses": [
+"CUST was established in 1998 as the Islamabad Campus of MAJU and became an independent university in 2015, marking over two decades of academic excellence. Founded as part of Mohammad Ali Jinnah University, it has grown to include 46 programs across multiple faculties, with a strong emphasis on research and community engagement."
+]
+},
+{
+"intent": "cust_vision",
+"text": ["What is the vision of CUST?", "cust vision", "Vision statement of CUST University?", "vision cust"],
+"responses": [
+"CUST's vision is to be recognized as a leading institution for transforming students into competent professionals who are instrumental in societal growth and development."
+]
+},
+{
+"intent": "cust_mission",
+"text": ["What is the mission of CUST?", "cust mission", "Mission of CUST University?", "mission cust"],
+"responses": [
+"CUST's mission is to develop the intellectual, professional, social, and personal skills of its students through innovations in learning, scholarship, and creative endeavors in an ethical and inclusive environment, preparing them to meet future challenges."
+]
+},
+{
+"intent": "cust_faculties",
+"text": ["How many faculties does CUST have?", "cust faculties number", "What are the faculties at CUST?", "faculties", "cust faculties"],
+"responses": [
+"CUST has six faculties: Faculty of Computing, Faculty of Engineering, Faculty of Health and Life Sciences, Faculty of Management and Social Sciences, Faculty of Pharmacy, and Faculty of Law, each offering specialized programs and research opportunities. Visit https://cust.edu.pk/faculties/ for overviews."
+]
+},
+{
+"intent": "programs_offered",
+"text": ["What programs does your university offer?", "programs", "courses", "What is the course in university?", "cust programs", "Which undergraduate programs are available?", "undergraduate programs", "ug programs", "Which postgraduate programs are available?", "postgraduate programs", "pg programs"],
+"responses": [
+"Capital University of Science and Technology (CUST) offers a comprehensive range of 46 undergraduate and postgraduate programs across various disciplines. Undergraduate programs include BS in Business Analytics, Aviation Management, Accounting and Finance, Psychology, English (Language and Literature), Biosciences, Biotechnology, Microbiology, Biochemistry, Medical Lab Technology, Computer Science, Artificial Intelligence, Software Engineering, Mathematics with Data Science, Electrical Engineering, Computer Engineering, Cyber Security, Mechanical Engineering, Civil Engineering, Robotics and Intelligent Systems, and Bachelor of Laws (LLB). Postgraduate programs encompass MS in Management Sciences, Project Management, Accounting and Finance, English Linguistics, Computer Science, Electrical Engineering, Computer Engineering, Biosciences, Artificial Intelligence, Engineering Management, Mechanical Engineering, Civil Engineering, Psychology, as well as MPhil in Mathematics and Pharmacy. These programs are designed to equip students with cutting-edge knowledge and skills, recognized by the Higher Education Commission (HEC) of Pakistan. For detailed descriptions and admissions, visit https://cust.edu.pk/admission/."
+]
+},
+{
+"intent": "admission_process",
+"text": ["How can I apply for admission?", "apply admission", "admission apply", "Can I apply online?", "apply online", "online apply", "Guide me through admission steps.", "admission steps", "steps admission"],
+"responses": [
+"To apply for admission at CUST, start by creating an online account on the university's admission portal at https://online-admissions.cust.edu.pk/. Fill out the detailed application form with your personal and academic information, pay the processing fee using credit/debit card, online bank transfer, or through the Bank of Punjab. If required, appear for the admission test or submit scores from an HEC-approved test like NTS or GAT. Once selected based on merit, you will receive an offer letter, after which you must submit required documents and pay the admission fee to confirm your seat. The process is fully online for convenience, and support is available via the contact numbers provided. For step-by-step guidance, visit https://cust.edu.pk/admission/."
+]
+},
+{
+"intent": "eligibility_ug",
+"text": ["What is the eligibility criteria for undergraduate programs?", "eligibility undergraduate", "ug eligibility"],
+"responses": [
+"For undergraduate programs at CUST, applicants must have completed 12 years of education (Intermediate or equivalent) with a minimum of 45% marks for non-Math-based programs like BBA, BS Psychology, BS English, BS Accounting & Finance, and BS Business Analytics. For Math-required programs such as BS Computer Science, Software Engineering, and Engineering fields, a minimum of 50% marks in Intermediate with Mathematics is necessary. Candidates with Pre-Medical backgrounds can apply but must complete deficiency Math courses. Additionally, applicants need to qualify the university admission test or an HEC-approved test with at least 50% marks. Foreign qualifications require an equivalence certificate from the Inter Board Committee of Chairmen (IBCC). A minimum aggregate merit of 50% is required for admission. Detailed criteria are available at https://cust.edu.pk/admission/undergraduate-admissions/."
+]
+},
+{
+"intent": "eligibility_pg",
+"text": ["What is the eligibility criteria for postgraduate programs?", "eligibility postgraduate", "pg eligibility"],
+"responses": [
+"For postgraduate programs (MS/MPhil) at CUST, candidates must have completed 16 years of education in a relevant field with a minimum CGPA of 2.00 out of 4.00 or 50% marks in the annual system. They are required to qualify the university admission test or an HEC-approved test (e.g., GAT) with at least 50% marks. Foreign qualifications need an equivalence certificate from the Higher Education Commission (HEC). The merit calculation includes 40% weightage for bachelor's marks and 60% for the test score, with a minimum aggregate of 50%. Visit https://cust.edu.pk/admission/graduate-admissions/ for program-specific details."
+]
+},
+{
+"intent": "admission_dates",
+"text": ["When does the admission process start?", "admission start", "admission process start", "What is the last date to apply?", "last date apply", "apply last date", "When do admissions open at CUST?", "What are CUST admission dates?", "When can I apply to CUST?", "CUST admission deadline?", "Last date to apply at CUST?"],
+"responses": [
+"As of January 9, 2026, the admission process for Spring 2026 at CUST started on November 16, 2025. The last date to apply is not fixed but applications should be submitted before the scheduled admission test dates, which go up to February 17, 2026. The semester commences on February 28, 2026. Always verify the latest deadlines at https://cust.edu.pk/admission/ as they can change."
+]
+},
+{
+"intent": "entrance_test",
+"text": ["Is there any entrance test for admission?", "entrance test", "admission test"],
+"responses": [
+"Yes, CUST requires an entrance test for admission to all programs. Applicants can take the university's own admission test or submit scores from HEC-approved tests such as NTS, SAT, or GAT, with a minimum of 50% marks. Exemptions are possible with valid scores. For test details and preparation, refer to https://cust.edu.pk/admission/admission-test/."
+]
+},
+{
+"intent": "merit_criteria",
+"text": ["What is the merit criteria?", "merit criteria", "merit calculation"],
+"responses": [
+"The merit criteria at CUST for undergraduate programs is calculated as: 10% weightage for Matric/Equivalent, 50% for FSc/Equivalent, and 40% for Admission Test/HEC Approved Test, with a minimum aggregate of 50%. For postgraduate programs, it's 40% for BS/Bachelors (16 Years)/Equivalent and 60% for the test, also requiring a minimum 50% aggregate. This ensures a fair selection process. See https://cust.edu.pk/admission/merit-criteria/ for examples."
+]
+},
+{
+"intent": "documents_required",
+"text": ["What documents are required for admission?", "documents required", "admission documents"],
+"responses": [
+"No documents are needed during the initial online application. Upon selection, submit attested copies of all academic certificates (Matric, Intermediate, etc.), a provisional certificate if results are awaiting, National Identity Card or Form B, and three recent passport-sized photographs. International students must provide a No Objection Certificate (NOC) from their Embassy and the Ministry of Education, along with equivalence certificates from IBCC/HEC. For complete list, visit https://cust.edu.pk/admission/documents-required/."
+]
+},
+{
+"intent": "gap_year_admission",
+"text": ["Do you offer admission on a gap year basis?", "gap year admission", "admission gap"],
+"responses": [
+"Yes, CUST offers admission to candidates with gap years or those awaiting results, provided they meet the eligibility criteria. Result-awaiting students must provide certification of having appeared in the required exams, and gaps may require explanations or supporting documents during the verification stage to ensure academic continuity."
+]
+},
+{
+"intent": "migration_certificate",
+"text": ["Is migration certificate required?", "migration certificate", "migration required"],
+"responses": [
+"A migration certificate is typically required for students seeking credit transfers from another university to CUST. For fresh admissions, it is not mandatory unless specified for certain cases, such as inter-board transfers. Always confirm with the admissions office for your specific situation."
+]
+},
+{
+"intent": "international_students",
+"text": ["Can international students apply?", "international students", "intl apply"],
+"responses": [
+"Yes, international students are welcome to apply to CUST. They must obtain equivalence certificates for their foreign qualifications from IBCC (for undergraduate) or HEC (for postgraduate), and secure a No Objection Certificate (NOC) from their respective Embassy and the Ministry of Education in Pakistan. The application process is the same as for local students, with additional support for visa and documentation. Details at https://cust.edu.pk/admission/international-students/."
+]
+},
+{
+"intent": "program_details_bs_cs",
+"text": ["Do you offer BS Computer Science?", "BS Computer Science", "bs cs", "What is BS Computer Science at CUST?", "BS Computer Science details", "bs cs details", "What are the subjects in the first semester?", "first semester subjects", "sem 1 subjects", "What is the curriculum for BS Computer Science?", "BS CS curriculum", "cs curriculum"],
+"responses": [
+"Yes, CUST offers a BS in Computer Science, a 4-year program designed to provide a strong foundation in computing principles, programming, algorithms, and emerging technologies like AI and data science. It prepares students for careers in software development, IT consulting, and research. The curriculum spans 8 semesters with 137 credit hours. Semester 1: Introduction to Programming (3+1), Ideology of Pakistan (2), Functional English (3), Calculus (3), ICT (2+1). Semester 2: Object-Oriented Programming (3+1), Islamic Studies (2), Communication Skills (3), Discrete Structures (3), Applied Physics (3+1). Subsequent semesters include advanced topics like databases, operating systems, AI, and a final project. Eligibility: 50% in Intermediate with Math. Fee: Rs. 14,000 per credit hour. Details including curriculum at https://cust.edu.pk/faculty-of-computing/bs-computer-science/."
+]
+},
+{
+"intent": "program_details_bs_ai",
+"text": ["What is BS Artificial Intelligence?", "BS AI", "ai bs"],
+"responses": [
+"BS Artificial Intelligence at CUST is a 4-year program focusing on AI technologies, machine learning, neural networks, and intelligent systems. It shares a similar structure to CS but emphasizes AI applications. Details: https://cust.edu.pk/faculty-of-computing/bs-artificial-intelligence/."
+]
+},
+{
+"intent": "program_details_bs_se",
+"text": ["What is BS Software Engineering?", "BS SE", "se bs"],
+"responses": [
+"BS Software Engineering at CUST is a 4-year program emphasizing software development processes, project management, and quality assurance. It prepares students for roles in software design and implementation. Details: https://cust.edu.pk/faculty-of-computing/bs-software-engineering/."
+]
+},
+{
+"intent": "program_details_bs_math_ds",
+"text": ["What is BS Mathematics with Data Science?", "BS Math DS", "math ds bs"],
+"responses": [
+"BS Mathematics with Data Science at CUST combines mathematical theories with data analysis techniques. Fee: Rs. 9,000 per credit hour. It equips students for data-driven careers. Details: https://cust.edu.pk/faculty-of-computing/bs-mathematics-with-data-science/."
+]
+},
+{
+"intent": "program_details_ms_cs",
+"text": ["What is MS Computer Science?", "MS CS", "ms cs"],
+"responses": [
+"MS Computer Science at CUST is a 2-year postgraduate program with 30 credit hours, offering advanced studies in computing, specializations, and research opportunities. Details: https://cust.edu.pk/faculty-of-computing/ms-computer-science/."
+]
+},
+{
+"intent": "program_details_ms_ai",
+"text": ["What is MS Artificial Intelligence?", "MS AI", "ms ai"],
+"responses": [
+"MS Artificial Intelligence at CUST provides advanced studies in AI, including machine learning and robotics. Details: https://cust.edu.pk/faculty-of-computing/ms-artificial-intelligence/."
+]
+},
+{
+"intent": "program_details_mphil_math",
+"text": ["What is MPhil Mathematics?", "MPhil Math", "mphil math"],
+"responses": [
+"MPhil Mathematics at CUST focuses on advanced mathematical research and applications. Details: https://cust.edu.pk/faculty-of-computing/mphil-mathematics/."
+]
+},
+{
+"intent": "program_details_bs_ee",
+"text": ["What is BS Electrical Engineering?", "BS EE", "ee bs"],
+"responses": [
+"BS Electrical Engineering at CUST is a 4-year PEC-accredited program focusing on electronics, power systems, and telecommunications. Details: https://cust.edu.pk/faculty-of-engineering/bs-electrical-engineering/."
+]
+},
+{
+"intent": "program_details_bs_ce",
+"text": ["What is BS Computer Engineering?", "BS CE", "ce bs"],
+"responses": [
+"BS Computer Engineering at CUST integrates hardware and software, preparing for system design careers. Details: https://cust.edu.pk/faculty-of-engineering/bs-computer-engineering/."
+]
+},
+{
+"intent": "program_details_bs_cyber_sec",
+"text": ["What is BS Cyber Security?", "BS Cyber Sec", "cyber bs"],
+"responses": [
+"BS Cyber Security at CUST teaches security protocols and threat management in computing. Details: https://cust.edu.pk/faculty-of-engineering/bs-cyber-security/."
+]
+},
+{
+"intent": "program_details_bs_me",
+"text": ["What is BS Mechanical Engineering?", "BS ME", "me bs"],
+"responses": [
+"BS Mechanical Engineering at CUST covers mechanics, design, and manufacturing. Details: https://cust.edu.pk/faculty-of-engineering/bs-mechanical-engineering/."
+]
+},
+{
+"intent": "program_details_bs_civil",
+"text": ["What is BS Civil Engineering?", "BS Civil", "civil bs"],
+"responses": [
+"BS Civil Engineering at CUST focuses on infrastructure, construction, and environmental engineering. Details: https://cust.edu.pk/faculty-of-engineering/bs-civil-engineering/."
+]
+},
+{
+"intent": "program_details_bs_robotics",
+"text": ["What is BS Robotics and Intelligent Systems?", "BS Robotics", "robotics bs"],
+"responses": [
+"BS Robotics and Intelligent Systems at CUST explores robotics technology and automation. Details: https://cust.edu.pk/faculty-of-engineering/bs-robotics-and-intelligent-systems/."
+]
+},
+{
+"intent": "program_details_ms_ee",
+"text": ["What is MS Electrical Engineering?", "MS EE", "ms ee"],
+"responses": [
+"MS Electrical Engineering at CUST offers advanced studies in electrical systems. Details: https://cust.edu.pk/faculty-of-engineering/ms-electrical-engineering/."
+]
+},
+{
+"intent": "program_details_ms_ce",
+"text": ["What is MS Computer Engineering?", "MS CE", "ms ce"],
+"responses": [
+"MS Computer Engineering at CUST advances knowledge in computer hardware and software. Details: https://cust.edu.pk/faculty-of-engineering/ms-computer-engineering/."
+]
+},
+{
+"intent": "program_details_ms_eng_mgmt",
+"text": ["What is MS Engineering Management?", "MS Eng Mgmt", "eng mgmt ms"],
+"responses": [
+"MS Engineering Management at CUST combines engineering with management principles. Details: https://cust.edu.pk/faculty-of-engineering/ms-engineering-management/."
+]
+},
+{
+"intent": "program_details_ms_me",
+"text": ["What is MS Mechanical Engineering?", "MS ME", "ms me"],
+"responses": [
+"MS Mechanical Engineering at CUST provides advanced mechanical studies. Details: https://cust.edu.pk/faculty-of-engineering/ms-mechanical-engineering/."
+]
+},
+{
+"intent": "program_details_ms_civil",
+"text": ["What is MS Civil Engineering?", "MS Civil", "ms civil"],
+"responses": [
+"MS Civil Engineering at CUST focuses on advanced civil infrastructure. Details: https://cust.edu.pk/faculty-of-engineering/ms-civil-engineering/."
+]
+},
+{
+"intent": "program_details_bs_biosciences",
+"text": ["What is BS Biosciences?", "BS Biosciences", "biosci bs"],
+"responses": [
+"BS Biosciences at CUST studies life sciences and biological processes. Details: https://cust.edu.pk/faculty-of-health-and-life-sciences/bs-biosciences/."
+]
+},
+{
+"intent": "program_details_bs_biotech",
+"text": ["What is BS Biotechnology?", "BS Biotech", "biotech bs"],
+"responses": [
+"BS Biotechnology at CUST applies biological knowledge to technology. Details: https://cust.edu.pk/faculty-of-health-and-life-sciences/bs-biotechnology/."
+]
+},
+{
+"intent": "program_details_bs_microbio",
+"text": ["What is BS Microbiology?", "BS Microbio", "micro bs"],
+"responses": [
+"BS Microbiology at CUST examines microorganisms and their impacts. Details: https://cust.edu.pk/faculty-of-health-and-life-sciences/bs-microbiology/."
+]
+},
+{
+"intent": "program_details_bs_biochem",
+"text": ["What is BS Biochemistry?", "BS Biochem", "biochem bs"],
+"responses": [
+"BS Biochemistry at CUST studies chemical processes in living organisms. Details: https://cust.edu.pk/faculty-of-health-and-life-sciences/bs-biochemistry/."
+]
+},
+{
+"intent": "program_details_bs_mlt",
+"text": ["What is BS Medical Lab Technology?", "BS MLT", "mlt bs"],
+"responses": [
+"BS Medical Lab Technology at CUST trains in diagnostic lab techniques. Details: https://cust.edu.pk/faculty-of-health-and-life-sciences/bs-medical-lab-technology/."
+]
+},
+{
+"intent": "program_details_ms_biosciences",
+"text": ["What is MS Biosciences?", "MS Biosciences", "ms biosci"],
+"responses": [
+"MS Biosciences at CUST advances research in biological sciences. Details: https://cust.edu.pk/faculty-of-health-and-life-sciences/ms-biosciences/."
+]
+},
+{
+"intent": "program_details_bs_bus_anal",
+"text": ["What is BS Business Analytics?", "BS Bus Anal", "bus anal bs"],
+"responses": [
+"BS Business Analytics at CUST uses data for business decisions. Details: https://cust.edu.pk/faculty-of-management-and-social-sciences/bs-business-analytics/."
+]
+},
+{
+"intent": "program_details_bs_aviat_mgmt",
+"text": ["What is BS Aviation Management?", "BS Aviat Mgmt", "aviat bs"],
+"responses": [
+"BS Aviation Management at CUST covers aviation operations and management. Details: https://cust.edu.pk/faculty-of-management-and-social-sciences/bs-aviation-management/."
+]
+},
+{
+"intent": "program_details_bs_acc_fin",
+"text": ["What is BS Accounting and Finance?", "BS Acc Fin", "acc fin bs"],
+"responses": [
+"BS Accounting and Finance at CUST teaches financial management and accounting principles. Details: https://cust.edu.pk/faculty-of-management-and-social-sciences/bs-accounting-and-finance/."
+]
+},
+{
+"intent": "program_details_bs_psych",
+"text": ["What is BS Psychology?", "BS Psych", "psych bs"],
+"responses": [
+"BS Psychology at CUST explores human behavior and mental processes. Details: https://cust.edu.pk/faculty-of-management-and-social-sciences/bs-psychology/."
+]
+},
+{
+"intent": "program_details_bs_english",
+"text": ["What is BS English?", "BS English", "english bs"],
+"responses": [
+"BS English at CUST focuses on language, literature, and linguistics. Details: https://cust.edu.pk/faculty-of-management-and-social-sciences/bs-english/."
+]
+},
+{
+"intent": "program_details_ms_mgmt_sci",
+"text": ["What is MS Management Sciences?", "MS Mgmt Sci", "mgmt ms"],
+"responses": [
+"MS Management Sciences at CUST advances management theories and practices. Details: https://cust.edu.pk/faculty-of-management-and-social-sciences/ms-management-sciences/."
+]
+},
+{
+"intent": "program_details_ms_proj_mgmt",
+"text": ["What is MS Project Management?", "MS Proj Mgmt", "proj ms"],
+"responses": [
+"MS Project Management at CUST teaches project planning and execution. Details: https://cust.edu.pk/faculty-of-management-and-social-sciences/ms-project-management/."
+]
+},
+{
+"intent": "program_details_ms_acc_fin",
+"text": ["What is MS Accounting and Finance?", "MS Acc Fin", "acc fin ms"],
+"responses": [
+"MS Accounting and Finance at CUST provides advanced financial expertise. Details: https://cust.edu.pk/faculty-of-management-and-social-sciences/ms-accounting-and-finance/."
+]
+},
+{
+"intent": "program_details_ms_english_ling",
+"text": ["What is MS English Linguistics?", "MS English Ling", "ling ms"],
+"responses": [
+"MS English Linguistics at CUST studies language structure and use. Details: https://cust.edu.pk/faculty-of-management-and-social-sciences/ms-english-linguistics/."
+]
+},
+{
+"intent": "program_details_ms_psych",
+"text": ["What is MS Psychology?", "MS Psych", "psych ms"],
+"responses": [
+"MS Psychology at CUST delves into advanced psychological theories. Details: https://cust.edu.pk/faculty-of-management-and-social-sciences/ms-psychology/."
+]
+},
+{
+"intent": "program_details_mphil_pharm",
+"text": ["What is MPhil Pharmacy?", "MPhil Pharm", "pharm mphil"],
+"responses": [
+"MPhil Pharmacy at CUST emphasizes pharmaceutical research and development. Details: https://cust.edu.pk/faculty-of-pharmacy/mphil-pharmacy/."
+]
+},
+{
+"intent": "program_details_llb",
+"text": ["What is LLB?", "LLB", "llb program"],
+"responses": [
+"LLB at CUST is a 5-year law degree program focusing on legal principles, ethics, and practice. Details: https://cust.edu.pk/faculty-of-law/llb/."
+]
+},
+{
+"intent": "program_duration_credits",
+"text": ["What is the course duration?", "course duration", "duration programs", "How many credit hours are required to complete the degree?", "credit hours", "degree credits"],
+"responses": [
+"Undergraduate programs at CUST, such as BS degrees, typically span 4 years divided into 8 semesters, with a maximum completion time of 7 years to accommodate part-time or extended studies. Postgraduate MS/MPhil programs are generally 2 years long, focusing on advanced coursework and research. The credit hour requirements vary by program. For example, BS Computer Science requires 137 credit hours, while other BS programs range from 124 to 140 credits. Postgraduate MS programs typically require 30-36 credit hours, including thesis or project work. Check specific program pages for exact figures."
+]
+},
+{
+"intent": "hec_recognized",
+"text": ["Is the program HEC recognized?", "HEC recognized", "recognized hec"],
+"responses": [
+"Yes, all academic programs offered by CUST are fully recognized by the Higher Education Commission (HEC) of Pakistan, ensuring they meet national quality standards and are valid for further education and employment opportunities both locally and internationally."
+]
+},
+{
+"intent": "elective_subjects",
+"text": ["What are the elective subjects?", "elective subjects", "electives"],
+"responses": [
+"Elective subjects at CUST vary depending on the program. For BS Computer Science, examples include Machine Learning (CS4613), Blockchain Technology (CS4573), and Introduction to Data Warehousing (CS4333). These allow students to specialize in areas of interest. For other programs, electives are listed in their respective curricula on the faculty pages."
+]
+},
+{
+"intent": "double_major_minor",
+"text": ["Do you offer double major or minor programs?", "double major", "minor programs"],
+"responses": [
+"CUST does not explicitly offer double major or minor programs as standard options, but per HEC guidelines, students may pursue such with written permission from the department heads, provided they meet the admission and credit requirements. Contact the relevant faculty for possibilities."
+]
+},
+{
+"intent": "change_program",
+"text": ["Can I change my program after admission?", "change program", "program change"],
+"responses": [
+"Yes, students at CUST can change their program once after admission, subject to approval from the Head of Department (HoD) of both the current and desired programs. A transfer fee applies, and only relevant courses will be transferred, with a new registration number issued."
+]
+},
+{
+"intent": "medium_instruction",
+"text": ["What is the medium of instruction?", "medium instruction", "instruction language"],
+"responses": [
+"The medium of instruction at CUST is English, ensuring students are prepared for global careers and higher studies. All lectures, exams, and materials are conducted in English to maintain international standards."
+]
+},
+{
+"intent": "fee_structure_general",
+"text": ["What is the fee structure for BS programs?", "fee BS", "bs fee", "What is the fee structure for MS programs?", "fee MS", "ms fee", "CUST semester fees?", "How much are CUST tuition fees?", "CUST fee structure?", "fee_structure_all_departments", "What is the fee structure for all departments at CUST?", "CUST fees for all programs?", "Tuition fees for all CUST departments?", "Fee structure for all courses at CUST?"],
+"responses": [
+"The fee structure at CUST is per credit hour for Intake Fall-25 & Spring-26. For BS programs: Business Analytics/Aviation/Acc&Fin/Biosciences/Biotech/Micro/MLT/EE/CE/Robotics/LLB: Rs13k; Psych/English/MathDS: Rs9k; Biochem: Rs12k; CS/AI/SE/Cyber: Rs14k; ME: Rs14k; Civil: Rs15k. For MS/MPhil: Rs13.5k per Cr Hr. Admission fee: Rs25k non-refundable. Fees subject to annual revision. For estimates, typical semester 15-18 Cr. Visit https://cust.edu.pk/admission/fee-structure/."
+]
+},
+{
+"intent": "fee_structure_computer_science",
+"text": ["What is the fee for BS Computer Science at CUST?", "CUST CS fees?", "Computer Science tuition at CUST?"],
+"responses": [
+"The tuition fee for BS Computer Science at CUST is Rs. 14,000 per credit hour for Fall-25/Spring-26, excluding one-time admission fee of Rs. 25,000. Typical semester: 15-18 credits (~Rs. 210,000-252,000). Visit https://cust.edu.pk/admission/fee-structure/ for details."
+]
+},
+{
+"intent": "fee_structure_psychology",
+"text": ["What is the fee for BS Psychology at CUST?", "CUST Psychology fees?", "Psychology tuition at CUST?"],
+"responses": [
+"The tuition fee for BS Psychology at CUST is Rs. 9,000 per credit hour for Fall-25/Spring-26, excluding one-time admission fee of Rs. 25,000. Typical semester: 15-18 credits (~Rs. 135,000-162,000). Visit https://cust.edu.pk/admission/fee-structure/ for details."
+]
+},
+{
+"intent": "fee_structure_software_engineering",
+"text": ["What is the fee for BS Software Engineering at CUST?", "CUST SE fees?", "Software Engineering tuition at CUST?"],
+"responses": [
+"The tuition fee for BS Software Engineering at CUST is Rs. 14,000 per credit hour for Fall-25/Spring-26, excluding one-time admission fee of Rs. 25,000. Typical semester: 15-18 credits (~Rs. 210,000-252,000). Visit https://cust.edu.pk/admission/fee-structure/ for details."
+]
+},
+{
+"intent": "fee_structure_artificial_intelligence",
+"text": ["What is the fee for BS Artificial Intelligence at CUST?", "CUST AI fees?", "Artificial Intelligence tuition at CUST?"],
+"responses": [
+"The tuition fee for BS Artificial Intelligence at CUST is Rs. 14,000 per credit hour for Fall-25/Spring-26, excluding one-time admission fee of Rs. 25,000. Typical semester: 15-18 credits (~Rs. 210,000-252,000). Visit https://cust.edu.pk/admission/fee-structure/ for details."
+]
+},
+{
+"intent": "fee_structure_electrical_engineering",
+"text": ["What is the fee for BS Electrical Engineering at CUST?", "CUST EE fees?", "Electrical Engineering tuition at CUST?"],
+"responses": [
+"The tuition fee for BS Electrical Engineering at CUST is Rs. 13,000 per credit hour for Fall-25/Spring-26, excluding one-time admission fee of Rs. 25,000. Typical semester: 15-18 credits (~Rs. 195,000-234,000). Visit https://cust.edu.pk/admission/fee-structure/ for details."
+]
+},
+{
+"intent": "fee_structure_mechanical_engineering",
+"text": ["What is the fee for BS Mechanical Engineering at CUST?", "CUST ME fees?", "Mechanical Engineering tuition at CUST?"],
+"responses": [
+"The tuition fee for BS Mechanical Engineering at CUST is Rs. 14,000 per credit hour for Fall-25/Spring-26, excluding one-time admission fee of Rs. 25,000. Typical semester: 15-18 credits (~Rs. 210,000-252,000). Visit https://cust.edu.pk/admission/fee-structure/ for details."
+]
+},
+{
+"intent": "fee_structure_civil_engineering",
+"text": ["What is the fee for BS Civil Engineering at CUST?", "CUST CE fees?", "Civil Engineering tuition at CUST?"],
+"responses": [
+"The tuition fee for BS Civil Engineering at CUST is Rs. 15,000 per credit hour for Fall-25/Spring-26, excluding one-time admission fee of Rs. 25,000. Typical semester: 15-18 credits (~Rs. 225,000-270,000). Visit https://cust.edu.pk/admission/fee-structure/ for details."
+]
+},
+{
+"intent": "fee_structure_management_sciences",
+"text": ["What is the fee for BBA at CUST?", "CUST Management Sciences fees?", "BS Accounting and Finance tuition at CUST?"],
+"responses": [
+"The tuition fee for Management Sciences programs (e.g., BBA, BS Accounting & Finance) at CUST is Rs. 13,000 per credit hour for Fall-25/Spring-26, excluding one-time admission fee of Rs. 25,000. Typical semester: 15-18 credits (~Rs. 195,000-234,000). Visit https://cust.edu.pk/admission/fee-structure/ for details."
+]
+},
+{
+"intent": "fee_structure_pharmacy",
+"text": ["What is the fee for Pharm-D at CUST?", "CUST Pharmacy fees?", "Pharmacy tuition at CUST?"],
+"responses": [
+"The tuition fee for Pharm-D at CUST is Rs. 14,000 per credit hour for Fall-25/Spring-26, excluding one-time admission fee of Rs. 25,000. Typical semester: 15-18 credits (~Rs. 210,000-252,000). Visit https://cust.edu.pk/admission/fee-structure/ for details."
+]
+},
+{
+"intent": "fee_structure_biosciences",
+"text": ["What is the fee for BS Biosciences at CUST?", "CUST Bioinformatics fees?", "Biosciences tuition at CUST?"],
+"responses": [
+"The tuition fee for BS Biosciences and Biotechnology at CUST is Rs. 13,000 per credit hour for Fall-25/Spring-26, excluding one-time admission fee of Rs. 25,000. Typical semester: 15-18 credits (~Rs. 195,000-234,000). Visit https://cust.edu.pk/admission/fee-structure/ for details."
+]
+},
+{
+"intent": "fee_structure_english",
+"text": ["What is the fee for BS English at CUST?", "CUST English fees?", "English tuition at CUST?"],
+"responses": [
+"The tuition fee for BS English at CUST is Rs. 9,000 per credit hour for Fall-25/Spring-26, excluding one-time admission fee of Rs. 25,000. Typical semester: 15-18 credits (~Rs. 135,000-162,000). Visit https://cust.edu.pk/admission/fee-structure/ for details."
+]
+},
+{
+"intent": "fee_details",
+"text": ["Is the fee semester-wise or yearly?", "fee payment", "fee basis", "Are there any additional charges?", "additional charges", "extra fees", "What is the admission fee?", "admission fee", "fee admission", "Is the fee refundable?", "fee refund", "refund fee", "Is there any late fee fine?", "late fee", "late fine", "What payment methods are available?", "payment methods", "pay how", "Show fee estimate for my selected program.", "fee estimate", "estimate fee"],
+"responses": [
+"Fees at CUST are charged on a per-credit-hour basis each semester. Additional charges include a one-time non-refundable admission fee of Rs. 25,000. Tuition is refundable per schedule (e.g., full by Mar 11 for Spring 26). Late fees apply; check handbook. Payments via card, transfer, Bank of Punjab. For estimate, e.g., BS CS: Rs14k/cr, 15-18 cr/sem ~Rs210k-252k + adm fee. Specify program."
+]
+},
+{
+"intent": "hostel_fee",
+"text": ["What are the hostel fees?", "hostel fees", "hostel cost", "CUST hostel fee?", "How much is hostel at CUST?", "Hostel charges at CUST?", "Is hostel available at CUST?"],
+"responses": [
+"CUST offers limited hostel facilities. Hostel charges are around PKR 12,000 to 15,000 per month, depending on the room type and facilities. It's best to contact the admin office for availability and exact details. https://cust.edu.pk/contact-us/."
+]
+},
+{
+"intent": "transport_charges",
+"text": ["Are transport charges included?", "transport charges", "transport included"],
+"responses": [
+"Transport charges are not included in the standard fee structure at CUST. The university may offer shuttle services for an additional fee; inquire directly with the administration for details on routes, costs, and availability."
+]
+},
+{
+"intent": "scholarships",
+"text": ["Do you offer scholarships?", "scholarships", "scholarship offer", "What types of scholarships are available?", "scholarship types", "types scholarships", "Is there any merit-based scholarship?", "merit scholarship", "merit based", "Is need-based financial aid available?", "need-based aid", "need based", "How can I apply for a scholarship?", "apply scholarship", "scholarship apply", "What GPA is required to maintain a scholarship?", "GPA scholarship", "maintain scholarship gpa", "Do you offer discounts for siblings?", "sibling discounts", "sibling discount", "Are scholarships available for international students?", "international scholarships", "intl scholarships", "What scholarships am I eligible for?", "scholarships eligible", "eligible scholarships", "Does CUST offer scholarships?", "Scholarships at CUST?", "Merit scholarships at CUST?", "Financial aid at CUST?"],
+"responses": [
+"Yes, CUST offers various scholarships including PGC (25% for UG), Merit UG/MS, Alumni, Disabled, Kinship, Faculty Dev, Need-Based, Sports, Contingency. Merit: Board Position/ GPA 3.95+:100%, 80% Marks/GPA 3.90-4.00:75%, etc. Apply through admissions portal. Maintain min CGPA (e.g., 3.0+). Sibling not mentioned; intl possible. Share details for eligibility. Visit https://cust.edu.pk/admission/scholarships/."
+]
+},
+{
+"intent": "placement_career",
+"text": ["Does the university offer job placement?", "job placement", "placement job", "Which companies visit for recruitment?", "recruitment companies", "companies visit", "What is the employment rate of graduates?", "employment rate", "grad employment", "Are internships compulsory?", "internships", "intern compulsory", "Does the university help in CV building?", "CV building", "help cv", "Are career counseling sessions conducted?", "career counseling", "counseling career", "Do you offer alumni networking opportunities?", "alumni networking", "network alumni"],
+"responses": [
+"Yes, CUST's Career Services Office offers job placement, with companies like Mobiserve, Meezan Bank, PepsiCo visiting. Employment rate high; contact for stats. Internships compulsory for some (e.g., BS CS 6-8 weeks). Help with CV workshops, counseling, alumni networking via Placement Office. https://cust.edu.pk/placement-office/."
+]
+},
+{
+"intent": "program_suggestions",
+"text": ["Which program is best for me?", "best program", "program best", "Suggest programs based on my marks.", "suggest programs", "programs suggest", "Calculate my admission merit.", "admission merit", "merit calculate", "Compare two programs.", "compare programs", "programs compare"],
+"responses": [
+"Best program depends on interests: Tech - BS CS/AI; Business - BS Analytics. For marks: 50%+ w Math - CS/Eng; 45%+ - Psych/English. Merit: (Matric%*0.1) + (FSc%*0.5) + (Test%*0.4). Compare e.g., CS vs SE: Both 4yrs, Rs14k/cr; CS broad, SE process-focused. Provide details."
+]
+},
+{
+"intent": "faculty_computing",
+"text": ["Tell me about Faculty of Computing.", "Faculty of Computing", "computing faculty"],
+"responses": [
+"The Faculty of Computing at CUST emphasizes innovation and research in computing and mathematics. It offers programs like BS Computer Science, BS Artificial Intelligence, BS Software Engineering, BS Mathematics with Data Science, MS Computer Science, MS Artificial Intelligence, and MPhil Mathematics. With a focus on practical skills and industry relevance, it prepares students for tech careers. HODs: Computer Science - Masroor Ahmed, Software Engineering/AI - Dr. Nadeem Anjum, Math - Dr. Sagheer Ahmed. Link: https://cust.edu.pk/faculty-of-computing/."
+]
+},
+{
+"intent": "faculty_engineering",
+"text": ["Tell me about Faculty of Engineering.", "Faculty of Engineering", "engineering faculty"],
+"responses": [
+"The Faculty of Engineering at CUST covers diverse engineering disciplines with 11 programs, strong industry collaborations, and departments in Civil, Electrical & Computer, and Mechanical Engineering. It fosters practical learning and innovation for real-world applications. HODs: Electrical - Dr. Noor Muhammad Khan, Mechanical - Dr. M Mahabat Khan, Civil - Dr. Majid Ali. Link: https://cust.edu.pk/faculty-of-engineering/."
+]
+},
+{
+"intent": "faculty_health_life",
+"text": ["Tell me about Faculty of Health and Life Sciences.", "Faculty of Health and Life Sciences", "health faculty"],
+"responses": [
+"The Faculty of Health and Life Sciences at CUST is research-oriented, offering programs in biosciences that integrate theoretical knowledge with practical lab work to advance health and biological sciences. HOD: Bioinformatics & Biosciences - Dr. Syed Marriam Bakhtiari. Link: https://cust.edu.pk/faculty-of-health-and-life-sciences/."
+]
+},
+{
+"intent": "faculty_management_social",
+"text": ["Tell me about Faculty of Management and Social Sciences.", "Faculty of Management and Social Sciences", "management faculty"],
+"responses": [
+"The Faculty of Management and Social Sciences at CUST provides programs in business, management, and social sciences, emphasizing leadership, ethics, and societal impact through interactive learning. HOD English: Dr. Muhammad Umar Farooq. Link: https://cust.edu.pk/faculty-of-management-and-social-sciences/."
+]
+},
+{
+"intent": "faculty_pharmacy",
+"text": ["Tell me about Faculty of Pharmacy.", "Faculty of Pharmacy", "pharmacy faculty"],
+"responses": [
+"The Faculty of Pharmacy at CUST offers MPhil in Pharmacy, focusing on pharmaceutical research, drug development, and healthcare advancements with a research-driven curriculum. HOD: Dr. Muzaffar Abbas. Link: https://cust.edu.pk/faculty-of-pharmacy/."
+]
+},
+{
+"intent": "faculty_law",
+"text": ["Tell me about Faculty of Law.", "Faculty of Law", "law faculty"],
+"responses": [
+"The Faculty of Law at CUST offers the LLB program, dedicated to providing comprehensive legal education, critical thinking, and ethical practice to prepare future lawyers and policymakers. Link: https://cust.edu.pk/faculty-of-law/."
+]
+},
+{
+"intent": "facilities_student_life",
+"text": ["What facilities does CUST offer?", "facilities", "cust facilities", "What is student life like at CUST?", "student life", "life at cust", "What student services are available?", "student services", "services student", "Tell me about the library at CUST.", "library", "cust library", "What sports facilities are there?", "sports facilities", "sports cust", "What research centers does CUST have?", "research centers", "cust research", "What events does CUST organize?", "events", "cust events"],
+"responses": [
+"CUST offers state-of-the-art facilities including modern classrooms, libraries with digital resources, labs, data center, sports complexes, dispensary, auditoriums, computer labs. Student life is active with events like RoboCUST, societies, sports. Services: counseling, placements, internships, alumni networking, research. Library: advanced resources. Sports: complex for various activities. Research: centers with industry ties. Events: seminars, workshops. https://cust.edu.pk/student-affairs-office/."
+]
+},
+{
+"intent": "alumni",
+"text": ["Tell me about alumni at CUST.", "alumni", "cust alumni"],
+"responses": [
+"CUST boasts over 14,354 alumni who are connected through the alumni association for networking, career opportunities, and feedback on curriculum. The Placement Office facilitates ongoing interactions. https://cust.edu.pk/alumni/."
+]
+},
+{
+"intent": "hods_departments",
+"text": ["CUST HOD of Software Engineering?", "Heads of departments at CUST?", "Who are the department heads at CUST?"],
+"responses": [
+"As of Fall 2025, the Heads of Departments at CUST are:\n- Computer Science: Masroor Ahmed \n- Software Engineering: Dr. Nadeem Anjum \n- Artificial Intelligence: Dr. Nadeem Anjum \n- Electrical Engineering: Dr. Noor Muhammad Khan\n- Mechanical Engineering: Dr. M Mahabat Khan\n- Civil Engineering: Dr. Majid Ali\n- Math: Dr. Sagheer Ahmed\n- Pharmacy: Dr. Muzaffar Abbas\n- Bioinformatics & Biosciences: Dr. Syed Marriam Bakhtiari\n- English: Dr. Muhammad Umar Farooq\n(Note: Subject to change. Refer to official website for latest info.)"
+]
+},
+{
+"intent": "vice_chancellor",
+"text": ["CUST vc?", "vc at CUST?", "Who are the vc at CUST?"],
+"responses": [
+"Prof. Dr. Muhammad Mansoor Ahmed, PhD (Cambridge, UK), CEng (UK), FIEE (UK), SMIEEE (USA), Eur. Ing (Brussels)"
+]
+},
+{
+"intent": "chancellor",
+"text": ["CUST chancellor?", "chancellor at CUST?", "Who are the chancellor at CUST?"],
+"responses": [
+"Mian Amer Mahmood, HI, Chancellor, CUST"
+]
+},
+{
+"intent": "goodbye",
+"text": ["Bye", "Goodbye", "See you", "Talk to you later"],
+"responses": [
+"Goodbye! Reach out anytime for more about Capital University of Science and Technology."
+]
+}
+]
+} 
